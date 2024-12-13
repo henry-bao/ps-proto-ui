@@ -207,13 +207,8 @@ const App: React.FC = () => {
                                 <div className="flex items-center gap-2 text-sm text-gray-500">
                                     <Info className="w-4 h-4" /> {entry.category} | {entry.calibre}
                                 </div>
-                                {entry.manufacturer && (
-                                    <div className="flex items-center gap-2 text-sm text-gray-500">
-                                        <Tag className="w-4 h-4" /> {entry.manufacturer}
-                                    </div>
-                                )}
                                 <div className="flex items-center gap-2 text-sm text-gray-500">
-                                  <Binoculars className="w-4 h-4" /> {entry.source} | {entry.sourceDate}
+                                    <Binoculars className="w-4 h-4" /> {entry.source} | {entry.sourceDate}
                                 </div>
                                 {entry.sourceUrl && (
                                     <div className="flex items-center gap-2 text-sm text-blue-500 hover:underline">
