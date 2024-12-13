@@ -79,7 +79,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto p-6 space-y-6">
             {/* Header */}
             <div className="flex justify-between items-center">
-                <h1 className="text-2xl font-bold">Weapons Identification Database</h1>
+                <h1 className="text-2xl font-bold">Open Source Firearms Database</h1>
                 <div className="flex gap-2 items-center">
                     <span className="text-sm text-gray-500">Last updated: 2 minutes ago</span>
                     <Clock className="w-4 h-4 text-gray-500" />
