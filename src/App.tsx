@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Filter, Calendar, MapPin, Clock, AlertTriangle, Info, X, Link, Tag, Binoculars } from 'lucide-react';
+import { Search, Filter, Calendar, MapPin, Clock, AlertTriangle, Info, X, Link, Binoculars } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { FilterSection } from './filterSection';
